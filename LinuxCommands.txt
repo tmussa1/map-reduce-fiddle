@@ -1,0 +1,65 @@
+Informational
+
+·       ls - list files
+
+·       ls –al – list files in ‘long form’ showing date, owner, group
+
+·       ls *.xyz – list all files ending with ‘.xyz’
+
+·       tree [caution: shows all children, all the way down! Use only in shallow directory trees]
+
+·       pwd
+
+·       echo [$param] (I think $JAVA_HOME is defined. Use that)
+
+·       which [param] (Demo with $JAVA_HOME)
+
+ 
+
+Doing basic things
+
+·       up-arrow - show last command
+
+·       history – returns indexed list of previous commands up to 500 [I think]
+
+·       !n [number] – executes cmd at the specified history index
+
+ 
+
+Moving around
+
+·       cd [explain /; ../; $envVar;…] explain tab auto-complete
+Linux/Unix/Mac commands :
+ 
+
+File/Directory manipulation
+
+·       cp <filename> <target> copy a file to specified [target] location
+
+·       cp –r <directory> copy a directory and its contents [i.e., recursive]
+
+·       mkdir <directoryName> create a directory
+
+·       rm <filename> delete (remove) file
+
+·       rm –rf <directoryName> delete (remove) a directory and its contents [i.e., recursive]
+
+·       mv <oldName> <newName>
+
+ 
+
+·       gedit – launch text editor
+
+·       gedit <filename>  – launch text editor with specified file
+
+·       gedit & -  – launch text editor and allow terminal window command line control to be availaible
+
+ 
+
+Java
+
+·       jshell – Open the new Java 9 Java REPL
+
+·       javac <filename>; <*.fileExtension>  - compile
+
+·       java <nameOfFileW_mainMethod> - run the program
